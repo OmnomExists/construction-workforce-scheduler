@@ -1,0 +1,127 @@
+/* src/App.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; 
+}
+
+.app {
+  max-width: 800px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%; 
+  box-sizing: border-box; 
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #007bff;
+}
+
+.add-worker {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.add-worker input[type='text'] {
+  flex: 1;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: #fff; 
+  background-color: #333; 
+}
+
+.add-worker button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 15px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.add-worker button:hover {
+  background-color: #0056b3;
+}
+
+.worker {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.worker h3 {
+  margin: 0 0 15px;
+  color: #007bff;
+}
+
+.schedule {
+  margin-bottom: 10px;
+}
+
+.schedule h4 {
+  margin: 0;
+  color: #333;
+}
+
+.schedule div {
+  padding: 8px 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.add-shift {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.add-shift input[type='date'],
+.add-shift input[type='text'] {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: #fff; 
+  background-color: #333; 
+}
+
+.add-shift button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 15px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.add-shift button:hover {
+  background-color: #0056b3;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}
